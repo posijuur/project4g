@@ -1,0 +1,12 @@
+.address {
+  float: right;
+}
+.address_menu_item {
+  line-height: 18px;
+  font-size: 12px;
+  color: #5fa5bb;
+}
+.address_menu_item__bold {
+  margin-bottom: 2px;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.social-sprite, .menu-top_item_btn__bgr1, .menu-top_item_btn__bgr2, .menu-top_item_btn__bgr3, .menu-top_item_btn__bgr4, .menu-top_item_btn__bgr5, .menu-top_item_btn__bgr6 {
+  background-image: url('../img/social-saf17e1f383.png');
+  background-repeat: no-repeat;
+}
+
+.menu-top {
+  margin-top: -70px;
+  float: right;
+  font-size: 0;
+  line-height: 0;
+}
+.menu-top_item {
+  display: inline-block;
+  font-size: 10px;
+  margin-right: 15px;
+}
+.menu-top_item_btn {
+  display: block;
+  padding-top: 50px;
+  width: 43px;
+  text-align: center;
+  color: #128aa7;
+}
+.menu-top_item_btn__bgr1 {
+  background-position: -42px 0;
+}
+.menu-top_item_btn__bgr2 {
+  background-position: -126px 0;
+}
+.menu-top_item_btn__bgr3 {
+  background-position: -221px 0;
+}
+.menu-top_item_btn__bgr4 {
+  background-position: 0 0;
+}
+.menu-top_item_btn__bgr5 {
+  background-position: -168px 0;
+  width: 53px;
+}
+.menu-top_item_btn__bgr6 {
+  background-position: -84px 0;
+}
+.menu-top_item__mr0 {
+  margin-right: 0;
+}
