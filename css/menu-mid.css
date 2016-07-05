@@ -9,7 +9,7 @@
 }
 .menu-mid_item {
   display: inline-block;
-  margin-right: 65px;
+  margin-right: 55px;
   line-height: 28px;
 }
 .menu-mid_item:hover .menu-mid_item_link_submenu {

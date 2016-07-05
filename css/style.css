@@ -69,9 +69,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 body {
-  background: url(../img/body-bgr3.jpg) repeat-x 0 0;
+  background: url(../img/body-bgr4.jpg) no-repeat 0 0;
+  background-size: cover;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 14px;
-  position: relative;
+  display: block;
+  content: '';
+  clear: both;
 }
 
 .page {
@@ -88,22 +92,43 @@ body {
   height: 545px;
   overflow: hidden;
 }
+.page_conteiner_title {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #424c43;
+}
+.page_conteiner_text {
+  line-height: 23px;
+  color: #424c43;
+}
+.page_conteiner_title__mb45 {
+  margin-bottom: 45px;
+}
+.page_conteiner_title__mb15 {
+  margin-bottom: 15px;
+}
 .page_conteiner_info {
   float: left;
-  padding-bottom: 20000px;
+  border-right: 1px solid #c7cacf;
+  padding: 0 13px 2000px 15px;
   margin-bottom: -20000px;
   width: 21%;
   background-color: #edeef0;
+  box-sizing: border-box;
 }
 .page_conteiner_content {
   background-color: #fff;
 }
 .page_conteiner_news {
-  padding-bottom: 20000px;
+  padding: 0 13px 2000px 15px;
   margin-bottom: -20000px;
   background-color: #edeef0;
+  border-left: 1px solid #c7cacf;
   float: right;
   width: 21%;
+  box-sizing: border-box;
 }
 .page_footer {
   float: left;
@@ -117,7 +142,7 @@ body {
 }
 
 .header {
-  padding: 15px 34px 0 30px;
+  padding: 25px 34px 10px 35px;
   height: 160px;
   background-color: #fff;
 }
